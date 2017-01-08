@@ -1,5 +1,6 @@
 $space-large: 2.5rem;
 $title-color: #858585;
+$theme-color: #858585;
 
 .page-title {
   color: $title-color;
@@ -10,6 +11,10 @@ $title-color: #858585;
 .site-title {
   color: $title-color;
   font-size: 1.75rem;
+}
+
+em {
+  color: $theme-color;
 }
 
 input[type=search] {
